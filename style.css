@@ -2,13 +2,26 @@
     --violet: hsl(257, 40%, 49%);
     --soft-magenta: hsl(300, 69%, 71%);
 
-    --ff-poppins: 'Poppins', sans-serif;
-    --ff-open-sans: 'Open Sans', sans-serif;
+    --ff-headings: 'Poppins', sans-serif;
+    --ff-body: 'Open Sans', sans-serif;
+}
+
+html { 
+    scroll-behavior: smooth;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    height: 80vh;
+    background-image: url(./images/bg-desktop.svg);
+    background-color: var(--violet);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
