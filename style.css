@@ -25,3 +25,19 @@ body {
     background-repeat: no-repeat;
 }
 
+.logo-container {
+    margin: 4rem 0 8rem 6rem;
+}
+
+.container {
+    display: flex;
+}
+
+.image-container {
+    margin: 0 0 0 6rem;
+}
+
+.illustration {
+    width: 51rem; 
+    height: auto;  
+}
