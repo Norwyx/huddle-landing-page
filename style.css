@@ -1,6 +1,7 @@
 :root {
     --violet: hsl(257, 40%, 49%);
     --soft-magenta: hsl(300, 69%, 71%);
+    --white: #fff;
 
     --ff-headings: 'Poppins', sans-serif;
     --ff-body: 'Open Sans', sans-serif;
@@ -31,6 +32,7 @@ body {
 
 .container {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .image-container {
@@ -40,4 +42,25 @@ body {
 .illustration {
     width: 51rem; 
     height: auto;  
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: var(--ff-headings);
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--white);
+    margin: 0 20rem 0 4rem;
+}
+
+.text {
+    font-family: var(--ff-headings);
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--white);
+    margin: 1rem 20rem 0 4rem;
 }
