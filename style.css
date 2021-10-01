@@ -47,6 +47,7 @@ body {
 .text-container {
     display: flex;
     flex-direction: column;
+    margin: 3rem 14rem 0 5rem;
 }
 
 .title {
@@ -54,7 +55,6 @@ body {
     font-size: 3rem;
     font-weight: 600;
     color: var(--white);
-    margin: 0 14rem 0 5rem;
 }
 
 .text {
@@ -62,7 +62,7 @@ body {
     font-size: 1.25rem;
     font-weight: 400;
     color: var(--white);
-    margin: 1rem 14rem 0 5rem;
+    margin-top: 1rem;
 }
 
 .btn {
@@ -75,7 +75,7 @@ body {
     border: none;
     cursor: pointer;
     padding: 1rem 0.8rem;
-    margin: 1.5rem 0 0 5rem;
+    margin-top: 2rem;
     transition-duration: 0.4s;
     box-shadow: 6px 6px 32px -1px rgba(0,0,0,0.37);
 }
