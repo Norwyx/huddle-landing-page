@@ -27,7 +27,7 @@ body {
 }
 
 .logo-container {
-    margin: 4rem 0 8rem 8rem;
+    margin: 4rem 0 6rem 8rem;
 }
 
 .container {
@@ -40,7 +40,7 @@ body {
 }
 
 .illustration {
-    width: 51rem; 
+    width: 54rem; 
     height: auto;  
 }
 
@@ -54,7 +54,7 @@ body {
     font-size: 3rem;
     font-weight: 600;
     color: var(--white);
-    margin: 0 20rem 0 4rem;
+    margin: 0 14rem 0 5rem;
 }
 
 .text {
@@ -62,7 +62,7 @@ body {
     font-size: 1.25rem;
     font-weight: 400;
     color: var(--white);
-    margin: 1rem 20rem 0 4rem;
+    margin: 1rem 14rem 0 5rem;
 }
 
 .btn {
@@ -75,8 +75,8 @@ body {
     border: none;
     cursor: pointer;
     padding: 1rem 0.8rem;
-    margin: 1.5rem 0 0 4rem;
-    box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.9);
+    margin: 1.5rem 0 0 5rem;
+    box-shadow: 6px 6px 32px -1px rgba(0,0,0,0.37);
 }
 /* 
 .btn:hover {
