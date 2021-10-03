@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    height: 80vh;
+    height: 100vh;
     background-image: url(./images/bg-desktop.svg);
     background-color: var(--violet);
     background-size: cover;
@@ -27,7 +27,7 @@ body {
 }
 
 .logo-container {
-    margin: 4rem 0 6rem 8rem;
+    margin: 3rem 0 5rem 5rem;
 }
 
 .container {
@@ -36,18 +36,18 @@ body {
 }
 
 .image-container {
-    margin: 0 0 0 8rem;
+    margin: 0 0 0 5rem;
 }
 
 .illustration {
-    width: 54rem; 
+    width: 45rem; 
     height: auto;  
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
-    margin: 3rem 14rem 0 5rem;
+    margin: 3rem 5rem 0 2rem;
 }
 
 .title {
@@ -90,7 +90,7 @@ body {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    margin: 0 5rem 0 0;
+    margin: 1rem 5rem 0 0;
 }
 
 .social-links a {
