@@ -156,3 +156,47 @@ body {
         margin: 5rem 0 5rem -1.1rem;
     }
 }
+
+/* 425px */
+@media only screen and (max-width: 26.5625rem) {
+    .logo-container {
+        justify-content: flex-start;
+        margin: 3rem 0 5rem 2rem;
+    } 
+    
+    .logo {
+        width: 12rem;
+        height: auto;
+    }
+    
+    .image-container {
+        margin: 0 4rem;
+    }
+    
+    .illustration {
+        width: 23rem; 
+        height: auto;  
+    }
+
+    .text-container {
+        margin: 2rem 2rem;
+    }
+    
+    .title {
+        font-size: 1.8rem;
+    }
+    
+    .text {
+        font-size: 1.1rem;
+    }
+
+    .social-links {
+        margin: 3rem 0 3rem -1.2rem;
+    }
+    
+    .social-links a {
+        height: 3rem;
+        width: 3rem;
+        font-size: 1.2rem;
+    }
+}
