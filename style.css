@@ -115,13 +115,44 @@ body {
 }
 
 /* RESPONSIVE VERSIONS */
-/* from 768px to 1380px */
-@media screen and (max-width: 48rem) and (max-width: 86.25rem) {
+/* 1380px */
+@media only screen and (max-width: 86.25rem) {
     body {
         height: 100vh;
         background-image: url(./images/bg-mobile.svg);
         background-color: var(--violet);
         background-position: center;
         background-repeat: no-repeat;
-    }    
+    } 
+    
+    .logo-container {
+        margin: 3rem 0 4rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-container {
+        margin: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-container {
+        align-items: center;
+        justify-content: center;
+        margin: 3rem 3rem 0 3rem;
+    }
+
+    .social-links {
+        align-items: center;
+        justify-content: center;
+        margin: 5rem 0 5rem -1.1rem;
+    }
 }
