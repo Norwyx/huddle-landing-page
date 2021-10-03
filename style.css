@@ -61,6 +61,7 @@ body {
     font-family: var(--ff-headings);
     font-size: 1.25rem;
     font-weight: 400;
+    opacity: 0.8;
     color: var(--white);
     margin-top: 1rem;
 }
@@ -83,4 +84,44 @@ body {
 .btn:hover {
     color: var(--white);
     background-color: var(--soft-magenta);
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0 5rem 0 0;
+}
+
+.social-links a {
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.25rem;
+    height: 3.75rem;
+    width: 3.75rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+.social-links a:hover {
+    color: var(--soft-magenta); 
+    border: 1px solid var(--soft-magenta); 
+    transform: scale(1.15); 
+}
+
+/* RESPONSIVE VERSIONS */
+/* from 768px to 1380px */
+@media screen and (max-width: 48rem) and (max-width: 86.25rem) {
+    body {
+        height: 100vh;
+        background-image: url(./images/bg-mobile.svg);
+        background-color: var(--violet);
+        background-position: center;
+        background-repeat: no-repeat;
+    }    
 }
