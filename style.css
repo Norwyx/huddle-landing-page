@@ -200,3 +200,27 @@ body {
         font-size: 1.2rem;
     }
 }
+
+/* 375px */
+@media only screen and (max-width: 23.4375rem) {
+    .logo-container {
+        margin: 3rem 0 4rem 2rem;
+    }
+    
+    .image-container {
+        margin: 0;
+    }
+    
+    .illustration {
+        width: 20rem; 
+        height: auto;  
+    }
+    
+    .title {
+        font-size: 1.6rem;
+    }
+    
+    .text {
+        font-size: 1.1rem;
+    }
+}
